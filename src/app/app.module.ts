@@ -1,7 +1,6 @@
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { CountDown } from 'ng4-date-countdown-timer';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -18,7 +17,6 @@ import { TravelComponent } from './travel/travel.component';
     AppComponent,
     HomeComponent,
     RegistryComponent,
-    CountDown,
     TravelComponent,
   ],
   imports: [
