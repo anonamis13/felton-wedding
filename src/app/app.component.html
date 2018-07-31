@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #fffdd0">
   <div class="container-fluid">
     <div class="navbar-header">
       <button (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbar" type="button" class="navbar-toggle">
@@ -7,36 +7,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Trevor and Kate</a>
-      <!--
-      <a href="https://rsvpify.com/" class="hidden-lg hidden-md hidden-sm">
-        <button class="btn btn-danger navbar-btn">RSVP</button>
-      </a>
-    -->
+      <a class="navbar-brand" href="#" style="color: #DE5D83; font-size: 30px">Dustin and Nikkie</a>
     </div>
     <div class="collapse navbar-collapse" id="navbar" [ngbCollapse]="!isCollapsed">
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a routerLink="/home">Home</a>
+          <a routerLink="/home" style="color: #DE5D83">Home</a>
         </li>
         <li class="nav-item">
-          <a routerLink="/wedding-details">Wedding Details</a>
+          <a routerLink="/travel" style="color: #DE5D83">Travel</a>
         </li>
         <li class="nav-item">
-          <a routerLink="/wedding-party">Wedding Party</a>
-        </li>
-        <li class="nav-item">
-          <a routerLink="/registry">Registry</a>
-        </li>
-        <li class="nav-item">
-          <a routerLink="/explore-cincinnati">Explore Cincinnati</a>
+          <a routerLink="/registry" style="color: #DE5D83">Registry</a>
         </li>
       </ul>
-      <!--
-      <a href="https://rsvpify.com/" class="hidden-xs">
-        <button class="btn btn-danger navbar-btn">RSVP</button>
-      </a>
-    -->
     </div>
   </div>
 </nav>
