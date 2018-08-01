@@ -12,7 +12,6 @@ const appRoutes: Routes = [
         component: HomeComponent
 
     },
-    /*
     {
         path: 'registry',
         component: RegistryComponent
@@ -21,7 +20,6 @@ const appRoutes: Routes = [
         path: 'travel',
         component: TravelComponent
     }
-    */
 ];
 
 @NgModule({
